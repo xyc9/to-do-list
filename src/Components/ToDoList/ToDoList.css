@@ -1,0 +1,68 @@
+.ToDoList{
+    border:1px solid black;
+    background-color: #333333;
+    padding: 50px 10px;
+    width: 30%;
+    margin:30px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+    border-radius: 50px;
+}
+.defaul__todo{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: inherit;
+    color:white;
+    width: 90%;
+    margin: 0 auto;
+}
+.defaul__todo:hover{
+    background-color: white;
+    color:#333333;
+    border: 1px solid #333333;
+}
+.done__todo,.todo__add-button:hover{
+    background-color: #62d44d;
+    color:#333333;
+    border: 1px solid #333333;
+    text-decoration: line-through;
+}
+.done__todo:hover{
+    color:white;
+    border: 1px solid white;
+}
+.todo__add-side{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.todo__add-input , .todo__add-button{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: inherit;
+    color:white;
+    margin: 0 auto;
+}
+.todo__add-input{
+   margin: 0;
+}
+.todo__add-button {
+    width:100%;
+    text-transform: uppercase;
+}
+.todo__add-button:hover{
+    text-decoration: none;
+}
